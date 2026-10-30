@@ -80,7 +80,7 @@ while True:
         hakusana = input("Anna hakusana: ")
         listaa_kirjat(etsi_kirjat(kirjat, hakusana))
     elif valinta == 5:
-        hakusana == input("Anna hakusana: ")
+        hakusana = input("Anna hakusana: ")
         listaa_kirjat(kirjoittajan_kirjat(kirjat, hakusana))
     elif valinta == 0:
         break
